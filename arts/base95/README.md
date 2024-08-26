@@ -20,7 +20,7 @@ Base95 是一种用 95 个可见的 ASCII 字符（含空格）表示任意二�
 pip install base95
 ```
 
-# 教程
+# 教程 ([查看美化版](https://github.com/lcctoor/arts/blob/main/arts/base95/README.md#项目描述) 👈)
 
 本文将以简洁的方式向你介绍核心知识，而不会让你被繁琐的术语所淹没。
 

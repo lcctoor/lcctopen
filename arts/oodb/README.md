@@ -22,7 +22,7 @@
 pip install oodb
 ```
 
-# 教程
+# 教程 ([查看美化版](https://github.com/lcctoor/arts/blob/main/arts/oodb/README.md#项目描述) 👈)
 
 本文将以简洁的方式向你介绍核心知识，而不会让你被繁琐的术语所淹没。
 

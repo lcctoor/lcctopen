@@ -75,6 +75,7 @@ class Coolstr:
     def get_mime_types(self):  # -> mime_type, encoding
         if suffix := re.findall(r'\.[^.]+$', self.string):
             if suffix[0] == '.bytes':
-                return 'application/octet-stream', None
-            return mimetypes.guess_type(f"_{suffix[0]}")  # 只有后缀时无法识别，所以得加 _ 前缀
-        return None, None
+                return 'application/octet-stream', ''
+            m, e = mimetypes.guess_type(f"_{suffix[0]}")  # 只有后缀时无法识别，所以得加 _ 前缀
+            return m or '', e or ''
+        return '', ''
